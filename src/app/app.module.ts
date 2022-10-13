@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { InfoComponent } from './components/info/info.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { GrillaComponent } from './components/grilla/grilla.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InfoComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    GrillaComponent
   ],
   imports: [
     BrowserModule,
