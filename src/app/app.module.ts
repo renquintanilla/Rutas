@@ -7,6 +7,10 @@ import { InfoComponent } from './components/info/info.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { GrillaComponent } from './components/grilla/grilla.component';
+import { DetalleEmpleadoComponent } from './components/detalle-empleado/detalle-empleado.component';
+import { ProyectosComponent } from './components/empleados/proyectos/proyectos.component';
+import { CurriculumComponent } from './components/empleados/curriculum/curriculum.component';
+import { ExperienciaComponent } from './components/empleados/experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { GrillaComponent } from './components/grilla/grilla.component';
     InfoComponent,
     AboutComponent,
     ContactComponent,
-    GrillaComponent
+    GrillaComponent,
+    DetalleEmpleadoComponent,
+    ProyectosComponent,
+    CurriculumComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
