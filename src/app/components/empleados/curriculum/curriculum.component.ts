@@ -9,15 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CurriculumComponent implements OnInit {
 
-  empleadoId?: number;
+  empleadoId: number;
 
   constructor(private activatedRoute: ActivatedRoute) {
-  }
+    this.empleadoId = 0;
+   }
 
   ngOnInit(): void {
-    this.activatedRoute.parent?.params.subscribe(params => {
-      this.empleadoId = params['empleadoId'];
-    })
+     this.activatedRoute.parent?.params.subscribe((params) => {
+       this.empleadoId = params['empleadoId'];
+     });
   }
 
 }

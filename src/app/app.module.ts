@@ -7,8 +7,8 @@ import { InfoComponent } from './components/info/info.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { GrillaComponent } from './components/grilla/grilla.component';
-import { DetalleEmpleadoComponent } from './components/detalle-empleado/detalle-empleado.component';
-import { ProyectosComponent } from './components/empleados/proyectos/proyectos.component';
+import { DetalledeEmpleadoComponent } from './components/detallede-empleado/detallede-empleado.component';
+import { ProyetosComponent } from './components/empleados/proyetos/proyetos.component';
 import { CurriculumComponent } from './components/empleados/curriculum/curriculum.component';
 import { ExperienciaComponent } from './components/empleados/experiencia/experiencia.component';
 
@@ -19,8 +19,8 @@ import { ExperienciaComponent } from './components/empleados/experiencia/experie
     AboutComponent,
     ContactComponent,
     GrillaComponent,
-    DetalleEmpleadoComponent,
-    ProyectosComponent,
+    DetalledeEmpleadoComponent,
+    ProyetosComponent,
     CurriculumComponent,
     ExperienciaComponent
   ],
